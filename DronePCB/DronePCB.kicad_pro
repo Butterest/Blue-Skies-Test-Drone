@@ -453,6 +453,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -633,7 +634,7 @@
         "uuid": "07ec3b7c-ddc6-4aa8-bf23-51689268e5d3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR67-72,C28-29,C32,R15-23,U9",
     "variants": []
   },
   "sheets": [
