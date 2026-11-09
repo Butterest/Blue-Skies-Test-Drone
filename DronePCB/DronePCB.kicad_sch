@@ -821,6 +821,127 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:0805W8F4701T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0805W8F4701T5E"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0805"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C17673.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C17673"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0805W8F4701T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:593D227X0010E2TE3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9303,10 +9424,22 @@
 		(uuid "74996a42-a690-4a65-a538-cd4aa604bfdd")
 	)
 	(junction
+		(at 420.37 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b21bfcd-1867-43a8-9f1b-a6a897feaa43")
+	)
+	(junction
 		(at 161.29 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "804662b8-692c-4140-97ba-95a926cb93c2")
+	)
+	(junction
+		(at 417.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8062d7b8-8890-4262-90ba-5d21cfff86fa")
 	)
 	(junction
 		(at 370.84 162.56)
@@ -9852,6 +9985,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 52.07) (xy 420.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0e5597-b479-487f-833a-4399dab4f7b0")
+	)
+	(wire
+		(pts
 			(xy 210.82 59.69) (xy 214.63 59.69)
 		)
 		(stroke
@@ -10039,6 +10182,16 @@
 			(type default)
 		)
 		(uuid "1d606dd6-54bb-4ffc-92ad-fa05eff47975")
+	)
+	(wire
+		(pts
+			(xy 431.8 52.07) (xy 420.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1aee0a-bae6-4db6-97dc-25bd52aebee4")
 	)
 	(wire
 		(pts
@@ -11102,6 +11255,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 55.88) (xy 417.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ccddb7-1d55-450f-a972-369615c4d118")
+	)
+	(wire
+		(pts
 			(xy 275.59 294.64) (xy 275.59 293.37)
 		)
 		(stroke
@@ -11672,7 +11835,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 58.42) (xy 420.37 71.12)
+			(xy 420.37 44.45) (xy 420.37 52.07)
 		)
 		(stroke
 			(width 0)
@@ -12652,6 +12815,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 52.07) (xy 447.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb05529-c8ab-415e-9450-4a3f0ee2d822")
+	)
+	(wire
+		(pts
 			(xy 425.45 69.85) (xy 425.45 71.12)
 		)
 		(stroke
@@ -12959,6 +13132,16 @@
 			(type default)
 		)
 		(uuid "bd4612cb-c8a8-41c5-8b7f-b426c5d4253c")
+	)
+	(wire
+		(pts
+			(xy 392.43 55.88) (xy 396.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be06f1b5-b590-4e16-8d37-ade8b9123abf")
 	)
 	(wire
 		(pts
@@ -13329,6 +13512,16 @@
 			(type default)
 		)
 		(uuid "d31e83ab-677e-4b41-874a-c6700aaa7183")
+	)
+	(wire
+		(pts
+			(xy 406.4 55.88) (xy 417.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3398030-8e03-495b-8e39-19c14d0a72a8")
 	)
 	(wire
 		(pts
@@ -13762,7 +13955,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 62.23) (xy 417.83 71.12)
+			(xy 417.83 48.26) (xy 417.83 55.88)
 		)
 		(stroke
 			(width 0)
@@ -14201,7 +14394,7 @@
 		(uuid "0f051ec1-3b62-45d3-93e1-6e98203e2d2a")
 	)
 	(label "I2C1_SDA"
-		(at 417.83 62.23 180)
+		(at 417.83 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14320,6 +14513,16 @@
 		)
 		(uuid "2df26020-3ca3-4606-9971-d314cdda04db")
 	)
+	(label "+3V3"
+		(at 392.43 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e70483f-801a-4012-b1b2-4b6cf3495de2")
+	)
 	(label "+5V"
 		(at 349.25 259.08 0)
 		(effects
@@ -14349,6 +14552,16 @@
 			(justify right bottom)
 		)
 		(uuid "3370a419-93c3-4d09-8719-032075e7f05a")
+	)
+	(label "+3V3"
+		(at 447.04 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3891febc-65cc-4f00-b459-63ba7e072909")
 	)
 	(label "BARO_SCK"
 		(at 142.24 148.59 180)
@@ -15211,7 +15424,7 @@
 		(uuid "f2a5b131-deae-4bdd-a2b9-40a19a0caad7")
 	)
 	(label "I2C1_SCL"
-		(at 420.37 58.42 0)
+		(at 420.37 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20526,6 +20739,106 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:0805W8F4701T5E")
+		(at 401.32 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "608b9fd8-c270-49ab-9ac8-556ccf9d81ff")
+		(property "Reference" "R24"
+			(at 401.32 48.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805W8F4701T5E"
+			(at 401.32 50.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 401.32 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C17673.html"
+			(at 401.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 401.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 401.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "GPS I2C Pull-Up R1"
+			(at 401.066 52.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ed3ab6f-e779-42a6-893d-30200d7d621f")
+		)
+		(pin "2"
+			(uuid "30dcdc53-ba99-4e36-9981-a0a13131afc2")
+		)
+		(instances
+			(project "DronePCB"
+				(path "/07ec3b7c-ddc6-4aa8-bf23-51689268e5d3"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 115.57 90)
 		(unit 1)
@@ -21945,7 +22258,7 @@
 				)
 			)
 		)
-		(property "Temp" "Ensure Pull-Up and Back-Powering are resolved"
+		(property "Temp" ""
 			(at 422.656 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30446,6 +30759,106 @@
 			(project "DronePCB"
 				(path "/07ec3b7c-ddc6-4aa8-bf23-51689268e5d3"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0805W8F4701T5E")
+		(at 436.88 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fff54f70-f998-40af-8c18-0f9a7d83d66c")
+		(property "Reference" "R25"
+			(at 436.88 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0805W8F4701T5E"
+			(at 436.88 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0805"
+			(at 436.88 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C17673.html"
+			(at 436.88 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 436.88 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "GPS I2C Pull-Up R2"
+			(at 436.626 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a907e22-0958-4125-bf08-54ae54b51597")
+		)
+		(pin "2"
+			(uuid "6f273216-12fc-4ebc-8e6a-c6405f3ff13f")
+		)
+		(instances
+			(project "DronePCB"
+				(path "/07ec3b7c-ddc6-4aa8-bf23-51689268e5d3"
+					(reference "R25")
 					(unit 1)
 				)
 			)

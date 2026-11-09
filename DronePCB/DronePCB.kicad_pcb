@@ -3118,13 +3118,13 @@
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/VQFN-HR-9_L2.0-W1.5-P0.50-BL_TI_RPJ.wrl"
 			(offset
-				(xyz 0.09 -0 -0)
+				(xyz 0.09 -0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3791,13 +3791,13 @@
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
 			(offset
-				(xyz 0 -1.1 0.85)
+				(xyz 0 -2.6 -0.15)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -5787,6 +5787,204 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:R0805"
+		(layer "F.Cu")
+		(uuid "5ea24090-d871-462a-8507-69c31ff5a104")
+		(at 123.035 51.095)
+		(property "Reference" "R24"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "d34f91e3-00d6-47c3-84b0-de43bb42d7ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0805W8F4701T5E"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "14912591-a27a-43d3-a647-28417a2d3959")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C17673.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acfbc66e-5708-420e-b2bd-1c5b385dbce9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7173944-6512-4c86-9682-94156ca563b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d9dbdd-4663-46af-a112-2fbd42a6c389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" "GPS I2C Pull-Up R1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2989960-1e45-4f19-992a-cee17c9a3dd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/608b9fd8-c270-49ab-9ac8-556ccf9d81ff")
+		(sheetname "/")
+		(sheetfile "DronePCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.76 -0.92)
+			(end -0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7429e51b-1744-440e-88b8-8fe571fda392")
+		)
+		(fp_line
+			(start -1.76 0.92)
+			(end -1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ca14d628-aaaa-4193-a0bf-6e0e0af54880")
+		)
+		(fp_line
+			(start -0.48 0.92)
+			(end -1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5c4861e2-9943-4157-8473-1449ab96d4af")
+		)
+		(fp_line
+			(start 0.48 0.92)
+			(end 1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "416c2bd8-0356-4db9-9b23-22a59968cbe4")
+		)
+		(fp_line
+			(start 1.76 -0.92)
+			(end 0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e532e726-c188-4daa-ab7c-ed276a52cb0d")
+		)
+		(fp_line
+			(start 1.76 0.92)
+			(end 1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8877bf58-3225-4140-98d0-87933048e37a")
+		)
+		(fp_circle
+			(center -1 0.64)
+			(end -0.97 0.64)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "8dd1a7b3-4313-42a8-b024-b7c25ff2a9a1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cad9b4eb-7b56-4f44-9be5-2856f60e9157")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.13 1.38)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/+3V3")
+			(pinfunction "1_1")
+			(pintype "input")
+			(uuid "624722e4-038e-4a1c-934b-ad1d954546e1")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.13 1.38)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/I2C1_SDA")
+			(pinfunction "2_2")
+			(pintype "input")
+			(uuid "da0a1240-38bd-45e0-90ab-f28c35ed38dd")
+		)
+		(embedded_fonts no)
+		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
+			(offset
+				(xyz -1.41 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:CONN-TH_B3B-PH-K-S"
 		(layer "F.Cu")
 		(uuid "5f110f97-224c-4a5f-a373-c613a929192f")
@@ -7272,7 +7470,7 @@
 				)
 			)
 		)
-		(property "Temp" "Ensure Pull-Up and Back-Powering are resolved"
+		(property "Temp" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7493,13 +7691,13 @@
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_GH1.25-LS-6P.wrl"
 			(offset
-				(xyz 0.03 -0.26 -0)
+				(xyz -3 0.24 -0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8978,13 +9176,13 @@
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/PH2.0-LI-4P.wrl"
 			(offset
-				(xyz 0 0.65 0)
+				(xyz 3 0.15 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -11782,6 +11980,204 @@
 		)
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
+			(offset
+				(xyz -1.41 -0 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "easyeda2kicad:R0805"
+		(layer "F.Cu")
+		(uuid "abe41e86-7b75-440e-983e-778382469630")
+		(at 123.035 54.085)
+		(property "Reference" "R25"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "e7b4dda2-61e2-4cd7-9be3-162d760c3672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0805W8F4701T5E"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "9522c449-0341-453d-bde2-922aee3884e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C17673.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d06a30a5-b937-4544-8f7b-0bd9ebb103cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e829f3fa-a1c8-4cfe-8dd2-a60b781cc0a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17673"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e50117d-d30e-42d3-aa11-18729e2a796a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Function" "GPS I2C Pull-Up R2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72debed0-fcde-44b7-863e-7447f454fb5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/fff54f70-f998-40af-8c18-0f9a7d83d66c")
+		(sheetname "/")
+		(sheetfile "DronePCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.76 -0.92)
+			(end -0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0d592023-ce08-4a20-a923-d0504a62ca54")
+		)
+		(fp_line
+			(start -1.76 0.92)
+			(end -1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1090ef60-4fa1-483b-b87a-5c41644f1b35")
+		)
+		(fp_line
+			(start -0.48 0.92)
+			(end -1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1fa56021-05d4-4838-8187-b2999cd08ea0")
+		)
+		(fp_line
+			(start 0.48 0.92)
+			(end 1.76 0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c6510a47-987b-41d6-a3cf-ef038a9527ed")
+		)
+		(fp_line
+			(start 1.76 -0.92)
+			(end 0.48 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b9ee32b-d982-422b-ae70-f034111cdac6")
+		)
+		(fp_line
+			(start 1.76 0.92)
+			(end 1.76 -0.92)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f1bc6e3-0501-412b-890d-0a6bc7f05450")
+		)
+		(fp_circle
+			(center -1 0.64)
+			(end -0.97 0.64)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "9544ab2d-fb55-4d9c-9793-ee9292f07d77")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "aba6b047-0259-4492-960d-c90f5742494a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1 0)
+			(size 1.13 1.38)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/I2C1_SCL")
+			(pinfunction "1_1")
+			(pintype "input")
+			(uuid "6ce14076-1377-4dd2-a52b-a0c503ab63fe")
+		)
+		(pad "2" smd rect
+			(at 1 0)
+			(size 1.13 1.38)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/+3V3")
+			(pinfunction "2_2")
+			(pintype "input")
+			(uuid "dd7bb5fd-4e64-4daf-a8b6-5621a21d7d12")
+		)
+		(embedded_fonts no)
+		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
 			(offset
 				(xyz -1.41 -0 -0)
 			)
@@ -18476,13 +18872,13 @@
 		(embedded_fonts no)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CB-5_L13.0-W10.0-P1.91-LS21.4-BR.wrl"
 			(offset
-				(xyz -0.14 0.03 0)
+				(xyz -1.14 0.03 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 270)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
