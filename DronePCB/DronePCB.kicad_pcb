@@ -1996,6 +1996,298 @@
 			)
 		)
 	)
+	(footprint "easyeda2kicad:CONN-SMD_6P-P1.25_BM06B-GHS-TBT-LF-SN-N"
+		(layer "F.Cu")
+		(uuid "20ec4430-96b3-4937-a3ea-a457e8d67542")
+		(at 202.76 35.33)
+		(property "Reference" "U11"
+			(at 0 -5.68 0)
+			(layer "F.SilkS")
+			(uuid "590b1385-895c-4e20-9fa6-70cf24d66271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BM06B-GHS-TBT(LF)(SN)(N"
+			(at 0 5.68 0)
+			(layer "F.Fab")
+			(uuid "84c45f31-b9a5-4b44-9baf-381bd31f0394")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_JST-Sales-America_BM06B-GHS-TBT-LF-SN-N_JST-Sales-America-BM06B-GHS-TBT-LF-SN-N_C189892.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cedc8e0c-b0fd-4e7d-98fb-d14f430c2481")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Telemetry Radio Connector"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "783dd6cf-3503-457c-a056-fd2e2b487b20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C189892"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f9bce85-fac1-4217-86d8-ea5f23605e68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Temp" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7833ac4c-4472-415c-bb21-343ca6d18b29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2f579e6c-dcc1-4a6c-94bd-616077a30feb")
+		(sheetname "/")
+		(sheetfile "DronePCB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "8" "1" "2" "3" "4" "5" "6" "7")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -5.36 -1.48)
+			(end -5.36 0.04)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c1caa6c8-cdda-466b-a8cb-4cba94c3b571")
+		)
+		(fp_line
+			(start -5.36 -1.48)
+			(end -3.65 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d56780a-9a48-44af-b674-1938b2497f91")
+		)
+		(fp_line
+			(start -2.59 -1.48)
+			(end -2.4 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20e36b87-e212-4bcc-9502-001ab22a92a6")
+		)
+		(fp_line
+			(start -1.34 -1.48)
+			(end -1.15 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "505ea80e-4fd2-43c7-9c2f-1abc270ec8df")
+		)
+		(fp_line
+			(start -0.09 -1.48)
+			(end 0.1 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df78e4ae-144c-46e2-b39f-1deb2ccefd67")
+		)
+		(fp_line
+			(start 1.16 -1.48)
+			(end 1.35 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "acec0908-9311-4a2a-ae85-a81eefe2e39e")
+		)
+		(fp_line
+			(start 2.41 -1.48)
+			(end 2.6 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4c80203-8238-4a94-9dca-0b486d6ba2b1")
+		)
+		(fp_line
+			(start 3.66 -1.48)
+			(end 5.39 -1.48)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58c70c24-18e1-43e6-bae2-fbd53875998d")
+		)
+		(fp_line
+			(start 4.28 2.77)
+			(end -4.24 2.77)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b25bba8-9c62-48b5-ab70-c7f455296a67")
+		)
+		(fp_line
+			(start 5.39 -1.48)
+			(end 5.39 0.04)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8094d42e-88d0-478b-9c70-d92318f30a7e")
+		)
+		(fp_circle
+			(center -5.5 -2.3)
+			(end -5.47 -2.3)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "1035d017-f001-46d0-ae45-774e3df47f9c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "81821af5-e24f-4f4e-be7f-96a02574bf9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 3.13 -1.68)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad1)")
+			(pinfunction "1_1")
+			(pintype "unspecified")
+			(uuid "dbfd85c5-6f65-492f-a562-576664710fea")
+		)
+		(pad "2" smd rect
+			(at 1.88 -1.68)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad2)")
+			(pinfunction "2_2")
+			(pintype "unspecified")
+			(uuid "ee974679-b4be-49bb-ae90-df60f01867a5")
+		)
+		(pad "3" smd rect
+			(at 0.63 -1.68)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad3)")
+			(pinfunction "3_3")
+			(pintype "unspecified")
+			(uuid "f0adf355-dbac-492a-8481-1612db5acaa7")
+		)
+		(pad "4" smd rect
+			(at -0.63 -1.68)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad4)")
+			(pinfunction "4_4")
+			(pintype "unspecified")
+			(uuid "1ca000ce-fde4-4979-9ffa-13bf9d892683")
+		)
+		(pad "5" smd rect
+			(at -1.87 -1.68)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad5)")
+			(pinfunction "5_5")
+			(pintype "unspecified")
+			(uuid "3fdd9524-734b-403c-85c4-812aec3027d1")
+		)
+		(pad "6" smd rect
+			(at -3.12 -1.68)
+			(size 0.6 1.7)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad6)")
+			(pinfunction "6_6")
+			(pintype "unspecified")
+			(uuid "51271d0d-aa58-4649-85fa-76baeddc9b5f")
+		)
+		(pad "7" smd rect
+			(at -4.98 1.68)
+			(size 1 2.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad7)")
+			(pinfunction "7_7")
+			(pintype "unspecified")
+			(uuid "ca7fec6c-baa5-4cf3-a259-e7df0472637a")
+		)
+		(pad "8" smd rect
+			(at 4.98 1.68)
+			(size 1 2.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "unconnected-(U11-Pad8)")
+			(pinfunction "8_8")
+			(pintype "unspecified")
+			(uuid "d2672ac7-a7ce-4ca6-8b91-313efc7d7faa")
+		)
+		(embedded_fonts no)
+		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-SMD_GH1.25-LS-6P.wrl"
+			(offset
+				(xyz 0.03 -0.26 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "easyeda2kicad:C0805"
 		(layer "F.Cu")
 		(uuid "29e1bf7b-3b1e-49aa-98ef-b4221cd866c5")
@@ -6022,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Description" "3 Pin Connector"
+		(property "Description" "3 Pin Connector - NEED TLM CONNECTED ON ALL STILL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14279,7 +14571,7 @@
 		(property "Reference" "U1"
 			(at 0 -11.55 0)
 			(layer "F.SilkS")
-			(uuid "cf26fb35-5bdc-45f9-8191-ee3d37d34e1a")
+			(uuid "90e5fef0-ff24-4826-aa79-aba61793eaf0")
 			(effects
 				(font
 					(size 1 1)
@@ -14290,7 +14582,7 @@
 		(property "Value" "STM32F765VIT6"
 			(at 0 11.55 0)
 			(layer "F.Fab")
-			(uuid "e46f5898-fdef-4691-878c-4b88cbefb5ce")
+			(uuid "c0870075-e72e-4159-baaa-8544da3fd0d1")
 			(effects
 				(font
 					(size 1 1)
@@ -14302,7 +14594,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e7daab5-ca77-43ba-bb29-f683f2618b93")
+			(uuid "627fb6c8-0653-4fcc-a77f-a31906aac831")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14313,7 +14605,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80d1eaee-b408-4098-8e3b-ec86d5df14ec")
+			(uuid "8f9d53b5-aec1-4556-91b9-c88b9e561310")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15328,7 +15620,7 @@
 			(at -7.55 4.5)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-PE0-Pad97)")
+			(net "/UART8_RX")
 			(pinfunction "PE0_97")
 			(pintype "unspecified")
 			(uuid "7e2f1526-a510-4729-aa7d-654348e8a76b")
@@ -15337,7 +15629,7 @@
 			(at -7.55 5)
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U1-PE1-Pad98)")
+			(net "/UART8_TX")
 			(pinfunction "PE1_98")
 			(pintype "unspecified")
 			(uuid "c57d9ae0-6bfe-4c14-8b74-48308b5c474b")
