@@ -520,7 +520,12 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
+    "net_colors": {
+      "/+3V3": "rgb(255, 149, 6)",
+      "/+5V": "rgb(255, 36, 15)",
+      "/5V_MUX": "rgb(32, 255, 19)",
+      "GND": "rgb(0, 3, 255)"
+    },
     "netclass_assignments": {},
     "netclass_patterns": []
   },
