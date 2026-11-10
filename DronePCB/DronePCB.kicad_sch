@@ -30659,7 +30659,7 @@
 		(fields_autoplaced yes)
 		(uuid "b54aa442-54e3-4fe7-bb55-7c854d68e1db")
 		(property "Reference" "U2"
-			(at 538.48 213.36 0)
+			(at 538.48 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30670,6 +30670,7 @@
 		)
 		(property "Value" "TPD6E05U06RVZR"
 			(at 538.48 215.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

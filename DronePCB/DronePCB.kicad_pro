@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 2.0,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
