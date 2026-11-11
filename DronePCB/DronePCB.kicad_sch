@@ -19454,7 +19454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 280.67 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -19565,7 +19565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 307.34 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -20322,7 +20322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 280.67 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -20512,7 +20512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 373.38 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -20863,7 +20863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 275.8948 0)
 			(hide yes)
 			(show_name no)
@@ -20976,7 +20976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 193.3448 0)
 			(hide yes)
 			(show_name no)
@@ -21089,7 +21089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 186.69 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -21438,7 +21438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 340.36 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -21666,7 +21666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 302.26 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -21778,7 +21778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.9 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -21889,7 +21889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 297.18 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -23638,7 +23638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 439.7248 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -25505,7 +25505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 448.31 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -27886,7 +27886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 280.67 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28156,7 +28156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.33 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -28553,7 +28553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 340.36 130.5052 0)
 			(hide yes)
 			(show_name no)
@@ -28754,7 +28754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 313.69 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -29582,7 +29582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 340.36 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -30566,7 +30566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 207.01 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -31667,7 +31667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R1206"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 280.67 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -31874,7 +31874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 57.4548 0)
 			(hide yes)
 			(show_name no)
@@ -31987,7 +31987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.54 277.8252 0)
 			(hide yes)
 			(show_name no)
@@ -32478,7 +32478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -32898,7 +32898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C1206"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 373.38 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -34368,7 +34368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 543.56 174.2948 0)
 			(hide yes)
 			(show_name no)
@@ -35259,7 +35259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 218.44 294.9448 0)
 			(hide yes)
 			(show_name no)
@@ -35846,7 +35846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.85 142.5448 0)
 			(hide yes)
 			(show_name no)
@@ -36068,7 +36068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R0805"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 406.4 41.91 0)
 			(hide yes)
 			(show_name no)
