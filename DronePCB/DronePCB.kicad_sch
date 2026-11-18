@@ -26218,7 +26218,7 @@
 				)
 			)
 		)
-		(property "Value" "BMP390"
+		(property "Value" "BMP388"
 			(at 330.2 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26261,7 +26261,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5124834"
+		(property "LCSC Part" "C779278"
 			(at 330.2 209.55 0)
 			(hide yes)
 			(show_name no)
